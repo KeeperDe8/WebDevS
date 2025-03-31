@@ -1,22 +1,149 @@
+
+ body {
+  
+  border-radius: 52px;
+  background: linear-gradient(145deg, #a6d7ec, #e5ffff);
+  box-shadow:  41px 41px 81px #69a1a5,
+               -41px -41px 81px #e6ecf3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  
+}
+
  *{
+  
     margin: 10px;
     padding: 1px;
-    background-color: rgb(248, 225, 239);
+    background-position-x: center;
+ 
     font-family: sans-serif
-
-    
   }
+ 
 
-.box-1{
-    width: 300px;
-    padding: 10px;
-    margin: 20px;
-    border-width: 10px;
-    border-style: dotted;
-    border-color: rgb(97, 23, 91);
-    background-color:rgb(133, 25, 124);
-    font-size: 50px;
-    color: white;
-    font-family: Impact
-       }
-       
+header {
+  
+  border-radius: 59px;
+  background: #87cbe8;
+  box-shadow:  3px 3px 6px #598699,
+               -3px -3px 6px #b5ffff; 
+  color: white;
+  text-align: center;
+  margin: 0;
+  width: 700px;
+  height: 150px;
+  padding: 10px;
+  font-size: 25px;
+  background: #22a6e4; 
+	border: solid #BDBDBD 7px; 
+	opacity: 0.5; 
+	-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity= 54); /* // for IE8 */
+	filter: alpha(opacity= 54); /* //for IE5-7 */
+  
+}
+
+nav ul {
+  list-style: none;
+  font-size: 18px;
+  color: white;
+  display: flex;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  border-radius: 52px;
+  background: linear-gradient(145deg, #22a6e4, #a3e2fd);
+  box-shadow:  41px 41px 81px #648b9c,
+               -41px -41px 81px #ccffff;
+               background: #22a6e4; 
+	border: solid #BDBDBD 7px; 
+	opacity: 0.5; 
+	-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity= 54); /* // for IE8 */
+	filter: alpha(opacity= 54); /* //for IE5-7 */
+}
+
+nav ul li a {
+  font-family: Chicago, sans-serif;
+  font-size: 18px;
+  color: white; 
+  text-decoration: none; 
+}
+
+
+section {
+  border-radius: 52px;
+  font-size: 18px;
+  align-items: center;
+  color: white;
+  background: linear-gradient(145deg, #cdd9de, #f4ffff);
+  box-shadow: 41px 41px 81px #969fa3, -41px -41px 81px #ffffff;
+  padding: 20px;
+  width: 700px;
+  height: auto;
+  background: #22a6e4;
+  border: solid #BDBDBD 7px;
+  opacity: 0.5;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=54); /* For IE8 */
+  filter: alpha(opacity=54); /* For IE5-7 */
+  text-align: center; /* Center the text */
+}
+
+article {
+  border-radius: 52px;
+  color: white;
+  background: linear-gradient(145deg, #cdd9de, #f4ffff);
+  box-shadow: 41px 41px 81px #969fa3, -41px -41px 81px #ffffff;
+  padding: 20px;
+  width: 700px;
+  height: auto;
+  background: #22a6e4; 
+  border: solid #BDBDBD 7px; 
+  opacity: 0.5; 
+  -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity= 54); /* // for IE8 */
+  filter: alpha(opacity= 54); /* //for IE5-7 */
+  text-align: center; /* Center the text */
+}
+
+aside {
+  border-radius: 52px;
+  font-size: 18px;
+  color: white;
+  background: linear-gradient(145deg, #cdd9de, #f4ffff);
+  box-shadow: 41px 41px 81px #969fa3, -41px -41px 81px #ffffff;
+  padding: 20px;
+  width: 700px;
+  height: auto;
+  background: #22a6e4;
+  border: solid #BDBDBD 7px;
+  opacity: 0.5;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=54); /* For IE8 */
+  filter: alpha(opacity=54); /* For IE5-7 */
+  text-align: center; /* Center the text */
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Add spacing between items */
+}
+
+aside ul li {
+  display: inline-block;
+}
+
+aside ul li img {
+  width: 100px;
+  height: auto;
+  border-radius: 10px; /* Optional: Add rounded corners to images */
+  transition: transform 0.3s ease; /* Add hover effect */
+}
+
+aside ul li img:hover {
+  transform: scale(1.1); /* Slightly enlarge the image on hover */
+}
