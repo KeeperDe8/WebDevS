@@ -1,0 +1,22 @@
+ *{
+    margin: 10px;
+    padding: 1px;
+    background-color: rgb(248, 225, 239);
+    font-family: sans-serif
+
+    
+  }
+
+.box-1{
+    width: 300px;
+    padding: 10px;
+    margin: 20px;
+    border-width: 10px;
+    border-style: dotted;
+    border-color: rgb(97, 23, 91);
+    background-color:rgb(133, 25, 124);
+    font-size: 50px;
+    color: white;
+    font-family: Impact
+       }
+       
