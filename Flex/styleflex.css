@@ -14,23 +14,24 @@ background: linear-gradient(0deg, rgba(234,255,255,1) 0%, rgba(186,255,254,1) 45
         "header header header"
         "nav main aside"
         "footer footer footer";
-    grid-template-columns: 200px 1fr 200px; /* Nav, Main, Aside */
-    grid-template-rows: auto 1fr auto; /* Header, Content, Footer */
-    height: 100vh; /* Full viewport height */
+    grid-template-columns: 200px 1fr 200px; 
+    grid-template-rows: auto 1fr auto;
+    height: 100vh; 
 }
 
 /* Header */
-header {
+.flex-container header {
     grid-area: header;
     background: linear-gradient(145deg, #22a6e4, #a3e2fd);
     color: white;
+    font-size: 20px;
     text-align: center;
     padding: 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Navigation */
-nav {
+.flex-container nav {
     grid-area: nav;
     background: #22a6e4;
     color: white;
@@ -40,26 +41,28 @@ nav {
     gap: 15px;
 }
 
-nav ul {
+.flex-container nav ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding: 10px;
+    margin: 20px;
 }
 
-nav ul li a {
+.flex-container nav ul li a {
     text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
     color: white;
     padding: 10px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
-nav ul li a:hover {
+.flex-container nav ul li a:hover {
     background-color: #87cbe8;
 }
 
 /* Main Content */
-main {
+.flex-container main {
     grid-area: main;
     display: flex;
     flex-direction: column;
@@ -69,7 +72,7 @@ main {
     
 }
 
-section, article {
+.flex-container section, article {
     width: 100%;
     max-width: 700px;
     margin: 10px 0;
@@ -82,7 +85,7 @@ section, article {
 }
 
 /* Aside */
-aside {
+.flex-container aside {
     grid-area: aside;
     background: #22a6e4;
     color: white;
@@ -91,18 +94,18 @@ aside {
     box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
 }
 
-aside ul {
+.flex-container aside ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-aside ul li {
+.flex-container aside ul li {
     margin: 10px 0;
 }
 
 /* Footer */
-footer {
+.flex-container footer {
     grid-area: footer;
     background: #22a6e4;
     color: white;
