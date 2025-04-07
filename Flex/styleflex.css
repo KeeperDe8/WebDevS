@@ -4,6 +4,8 @@ body, html {
     padding: 0;
     box-sizing: border-box;
     height: 100%;
+    background: rgb(234,255,255);
+background: linear-gradient(0deg, rgba(234,255,255,1) 0%, rgba(186,255,254,1) 45%, rgba(70,250,248,1) 93%);
 }
 
 .flex-container {
@@ -64,6 +66,7 @@ main {
     align-items: center;
     justify-content: center;
     padding: 20px;
+    
 }
 
 section, article {
@@ -75,6 +78,7 @@ section, article {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     text-align: center;
+    
 }
 
 /* Aside */
@@ -106,3 +110,4 @@ footer {
     padding: 10px;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
 }
+
